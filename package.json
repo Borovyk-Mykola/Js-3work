@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "Js-3work",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://borovyk-mykola.github.io/Js-3work",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url ./"
+    "build": "parcel build src/*.html --public-url /Js-3work/"
   },
   "repository": {
     "type": "git",
