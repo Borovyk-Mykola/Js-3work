@@ -12,11 +12,11 @@ form.addEventListener('submit', (e) => {
   console.log({ email: email.value, message: message.value });
   if (email.value === '' || message.value === '') {
     return alert('Будь-ласка, заповніть всі поля!');
-  }
+  };
   e.currentTarget.reset();
 });
 
-loadPage()
+loadPage();
 
 function loadPage() {
   if (objForm) {
@@ -24,4 +24,4 @@ function loadPage() {
     message.value = objForm.message || '';
     localStorage.removeItem(FORM_KEY);
   }
-}
+};
